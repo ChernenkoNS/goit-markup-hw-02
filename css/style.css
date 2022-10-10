@@ -1,0 +1,186 @@
+
+:root {
+    /* brand-color: ;
+    text-color: ; */
+    --btn-color: #2196F3;
+}           
+
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.hide-tittle {
+    display: none;
+}
+
+/* header */
+
+.logo-webstudio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    Line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo-web {
+     /* color: #2196F3; */
+    color: var(--btn-color) ;
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.logo-studio-footer {
+    color: #FFFFFF;
+}
+
+.head-tittle {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+ .info {
+    color: #757575;
+    
+}
+
+.info:hover  {
+    color: #2196F3;
+}
+
+.info:focus {
+    color: tomato;
+}
+
+.studio, .portfolio {
+    /* color: #2196F3; */
+    color: var(--btn-color);
+}
+
+.location {
+    font-size: 14px;
+    font-weight: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+
+ 
+
+/* main studio*/
+
+.hero-tittle {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.feature {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.feature-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    /* color: #757575; */
+}
+
+.section-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.46;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.direction {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.46px;
+    letter-spacing: 0.03em;
+    color: #757575; 
+}
+
+
+/* main portfolio */
+
+.project-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    /* color: #757575; */
+}
+
+.project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    
+}
+
+.btn {
+    background-color: #F5F4FA ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #2196F3 ;
+    color: #FFFFFF;
+} 
+
+
+
+/* footer */
+
+footer {
+    background-color: #2F303A;
+}
