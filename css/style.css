@@ -1,17 +1,19 @@
 
 :root {
-    /* brand-color: ;
-    text-color: ; */
+    --text-color:#757575;
+    --title-color: #F5F5F5;
+    --name-color: #212121;
     --btn-color: #2196F3;
+    --sectoin-color: #2F303A;
+    --logo-studio-color: #000000;
+    --background-btn-color: #F5F4FA;
 }           
 
 body {
-    background-color: #F5F5F5;
-    color: #757575;
+    background-color: var(--title-color) ;
+    color: var(--text-color);
     font-family: 'Roboto', sans-serif;
- 
 }
-
 
 ul {
     list-style-type: none;
@@ -21,6 +23,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .hide-tittle {
     display: none;
 }
@@ -34,53 +37,48 @@ a {
     letter-spacing: 0.03em;
 }
 .logo-web {
-     /* color: #2196F3; */
     color: var(--btn-color) ;
 }
 
 .logo-studio {
-    color: #000000;
+    color: var(--logo-studio-color);
 }
 
 .logo-studio-footer {
-    color: #FFFFFF;
+    color: var(--title-color);
 }
 
 .head-tittle {
-    color: #212121;
+    color: var(--name-color);
     font-size: 14px;
-    font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.02em;
 }
 
  .info {
-    color: #757575;
+    color: var(--text-color);
     
 }
 
 .info:hover  {
-    color: #2196F3;
+    color: var(--btn-color);
 }
 
 .info:focus {
-    color: tomato;
+    color: var(--btn-color);
 }
 
 .studio, .portfolio {
-    /* color: #2196F3; */
     color: var(--btn-color);
 }
 
 .location {
+    font-style: normal;
     font-size: 14px;
     font-weight: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--title-color);
 }
-
-
- 
 
 /* main studio*/
 
@@ -89,8 +87,8 @@ a {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2F303A;
+    color: var(--title-color);
+    background-color: var(--sectoin-color);
 }
 
 .button {
@@ -98,32 +96,29 @@ a {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--title-color);
+    background-color: var(--btn-color);
+    cursor: pointer;
 }
 
 .feature {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--name-color);
 }
 
 .feature-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /* color: #757575; */
 }
 
 .section-name {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--name-color);
 }
 
 .team {
@@ -132,49 +127,44 @@ a {
     line-height: 1.46;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--name-color);
 }
 
 .direction {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.46px;
     letter-spacing: 0.03em;
-    color: #757575; 
 }
-
 
 /* main portfolio */
 
 .project-name {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    /* color: #757575; */
 }
 
 .project {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--name-color);
     
 }
 
 .btn {
-    background-color: #F5F4FA ;
-    font-weight: 500;
+    background-color: var(--background-btn-color) ;
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--name-color);
+    cursor: pointer;
 }
 
 .btn:hover, .btn:focus {
-    background-color: #2196F3 ;
-    color: #FFFFFF;
+    background-color: var(--btn-color);
+    color: var(--title-color);
 } 
 
 
@@ -182,5 +172,5 @@ a {
 /* footer */
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--sectoin-color);
 }
