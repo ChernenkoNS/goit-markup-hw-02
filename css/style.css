@@ -1,7 +1,7 @@
 
 :root {
-    --text-color:#757575;
     --title-color: #F5F5F5;
+    --text-color:#757575;
     --name-color: #212121;
     --btn-color: #2196F3;
     --sectoin-color: #2F303A;
@@ -13,6 +13,8 @@ body {
     background-color: var(--title-color) ;
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -34,7 +36,6 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     Line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 .logo-web {
     color: var(--btn-color) ;
@@ -50,21 +51,16 @@ a {
 
 .head-tittle {
     color: var(--name-color);
-    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
 }
 
- .info {
+.info {
     color: var(--text-color);
-    
+    font-style: normal;
 }
 
-.info:hover  {
-    color: var(--btn-color);
-}
-
-.info:focus {
+.head-tittle:hover, .head-tittle:focus {
     color: var(--btn-color);
 }
 
@@ -74,25 +70,28 @@ a {
 
 .location {
     font-style: normal;
-    font-size: 14px;
     font-weight: 1.7;
-    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 
 /* main studio*/
 
+.hero {
+    background-color: var(--sectoin-color);
+}
+
+
 .hero-tittle {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 1.36;      
     letter-spacing: 0.06em;
     color: var(--title-color);
-    background-color: var(--sectoin-color);
 }
 
 .button {
     font-weight: 700;
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
@@ -102,22 +101,17 @@ a {
 }
 
 .feature {
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     color: var(--name-color);
 }
 
 .feature-text {
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .section-name {
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
     color: var(--name-color);
 }
 
@@ -125,15 +119,13 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.46;
-    letter-spacing: 0.03em;
     
     color: var(--name-color);
 }
 
 .direction {
     font-size: 16px;
-    line-height: 1.46px;
-    letter-spacing: 0.03em;
+    line-height: 1.46;
 }
 
 /* main portfolio */
@@ -141,7 +133,6 @@ a {
 .project-name {
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
 }
 
 .project {
@@ -157,7 +148,6 @@ a {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
     color: var(--name-color);
     cursor: pointer;
 }
